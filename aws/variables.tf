@@ -12,3 +12,8 @@ variable "rds_snapshot_identifier" {
     description = "The identifier for the RDS snapshot."
     type        = string
 }
+
+variable "rds_diff_snapshot_identifier" {
+    description = "The identifier for the RDS snapshot (with schema diff)."
+    type        = string
+}
