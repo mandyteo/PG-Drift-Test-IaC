@@ -3,5 +3,5 @@ data "aws_db_snapshot" "source" {
 }
 
 data "aws_db_snapshot" "diff_source" {
-  db_cluster_identifier = var.rds_diff_snapshot_identifier
+  db_snapshot_identifier = var.rds_diff_snapshot_identifier
 }
